@@ -1,5 +1,7 @@
 // Javascript built-in standard objects provide essential functionalities for working with data, manipulating strings, performing calculations, and more. This is made posible by their pre-defined properties and methods.
-// These objects include:- Object, Array, Math, Date, JSON ,String among others. 
+
+// These objects include:- Object, Array, Math, Date, JSON ,String, Number among others. 
+// js proptotype chaining
 // These objects are also available in the global scope so they can be used anywhere in the code without having to import/require.
 
 /**
@@ -11,3 +13,22 @@
 */ 
 
 // The browser comes built with an additional set of global object to help work with html elements and the browser itself. The same applies to other javascript environments like node js and bun js
+
+console.log( Math.sqrt(16)    );
+console.log( Math.round(9.7) );
+console.log( Math.round(Math.random()*50) );
+let smallest = Math.min(23,41,4,53,)
+console.log(smallest);
+
+ console.log(  new Date(Date.now()).toLocaleTimeString()); // epoch time
+
+setTimeout(()=>{
+    console.log(  new Date(Date.now()).toLocaleTimeString()); // epoch time
+}, 3000)
+
+let names = ["joy","albert", "victor"]
+console.log( names.sort() );
+ const winner = "Beniah"
+console.log(   winner.startsWith("b") ); // true
+
+// array methods, string methods ,, object methods, number methods
