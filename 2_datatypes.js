@@ -5,7 +5,7 @@
 let age = 25
 let maxNum = 98436427462n // n at the end labels this to memory as of type bigint
 let isPresent = false
-let user = "james"
+let user
 let startingPoint = null
 let city = "Eldoret"
 // We can use the typeof operator to check the data type of a value/variable
@@ -33,4 +33,40 @@ console.log( car.color ); // dot notation
 // to check the car brand
 console.log( car["brand"] ); // bracket notation
 // dot notation is considered a cleaner option by most developers and bracket notation is used on need basis. 
-//ARRAY,function
+
+
+//ARRAY
+const cars = ["toyota","mazda", "subaru", 78, true, [1,2,3] ]
+const students = [{name:"james", age: 12}, {name:"joy", age: 22, height: 5.8}, {name:"jude", age: 32}]
+// arrays are special objects - 
+// arrays are zero indexed
+// we use bracket notation
+console.log(  cars[0]  ); // toyota
+console.log(  cars[3]  ); // 78
+
+// the age for the second student
+console.log( students[1].age );  //22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
