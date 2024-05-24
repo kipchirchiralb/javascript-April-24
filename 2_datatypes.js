@@ -20,9 +20,14 @@ let car = {
     model: "Vitz",
     year: 2024,
     locallyAssembled: true,
-    color: "red"
+    color: "red",
+    start: function start(){
+        console.log( "Car starting!!!1" );
+        console.log("vroooommm!!!!!");
+    }
 }
 // car is an object
+car.start()
 console.log(car);
 console.log(typeof car);
 // objects are made up of key-value pairs separated by a comma
@@ -43,6 +48,7 @@ const students = [{name:"james", age: 12}, {name:"joy", age: 22, height: 5.8}, {
 // we use bracket notation
 console.log(  cars[0]  ); // toyota
 console.log(  cars[3]  ); // 78
+console.log(  cars[5][0]  ); // [1,2,3]
 
 // the age for the second student
 console.log( students[1].age );  //22
