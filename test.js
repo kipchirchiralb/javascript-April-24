@@ -1,11 +1,6 @@
-function newWay(){
-    console.log("hello there");
-    return 0
-}
-function newWayTwo(){
-    console.log("hello there");
-}
+let date1 = new Date("12/12/2025")
+let date2 = new Date("1/05/2025")
 
-
-console.log( typeof newWay );
-
+console.log( date1.getMonth() );
+console.log( date2.getMonth() );
+// date module - moment js, date js

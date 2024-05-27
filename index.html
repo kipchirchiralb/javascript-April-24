@@ -11,6 +11,20 @@
         <li></li>
     </ol>
 
-    <script src="./2_datatypes.js"></script>
+    <script>
+      let car = {
+            brand: "Toyota",
+            model: "Vitz",
+            year: 2024,
+            locallyAssembled: true,
+            color: "red",
+            start: function start(){
+                console.log( "Car starting!!!1" );
+                console.log("vroooommm!!!!!");
+            }
+        }
+        // car is an object
+        console.log(car.hasOwnProperty("colr"));
+    </script>
 </body>
 </html>
