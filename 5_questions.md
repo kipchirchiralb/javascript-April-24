@@ -29,6 +29,7 @@ You are building a calendar application. Write a function to rotate the weeks di
 5:  
 **Question:**  
 Write a function `findMissingNumber(nums)` that takes an array of numbers `nums` containing unique integers from 1 to n (inclusive) and returns the missing number in the sequence.
+[1,2,3,5,6,7,8]
 
 **Scenario:**  
 You are designing an inventory management system for a warehouse. Write a function to identify any missing product IDs in the inventory list, helping warehouse staff maintain accurate stock records.
