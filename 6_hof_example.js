@@ -162,3 +162,8 @@ function searchNames(names,input){
 ]
 
 console.log( filterByAge(people,50) );
+
+// using map method, create a new array(with all people) to add a prefix Mr or Mrs on the people's names depending on their gender
+// write a function fiterByGroup("kalenjin"), that takes in any ethic group as input are returns a list of people from that ethnic group, if none, log that there are no people from the "input" ethnic group
+// Find Average Age by Ethnicity
+// Sort People by Age with Oldest First 
