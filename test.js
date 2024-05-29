@@ -1,6 +1,19 @@
-let date1 = new Date("12/12/2025")
-let date2 = new Date("1/05/2025")
+function fOne() {
+    console.log("khgfhs");
+}
 
-console.log( date1.getMonth() );
-console.log( date2.getMonth() );
-// date module - moment js, date js
+const fTwo = () =>{
+    console.log("hkbscvb cv");
+}
+function fThree(cbf){
+    cbf()
+}
+
+fThree(fTwo)
+
+fThree( ()=>{
+    console.log("jfdh");
+})
+
+// anonymous functions -- callback functions
+// arrow functions
