@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h1>Pople Data</h1>
+    <table>
+        <tr> 
+            <th>Name</th>    
+            <th>Ethnicity</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+
+        </tr>
+    </table>
+    <script>
+        const people = [
+
+    {
+        "name": "John",
+        "age": 22,
+        "ethnicity": "Luhya",
+        "gender": "Male"
+    },
+    {
+        "name": "Jane",
+        "age": 62,
+        "ethnicity": "Kalenjin",
+        "gender": "Female"
+    },
+    {
+        "name": "Kennedy",
+        "age": 59,
+        "ethnicity": "Meru",
+        "gender": "Male"
+    },
+    {
+        "name": "Esther",
+        "age": 50,
+        "ethnicity": "Luo",
+        "gender": "Female"
+    },
+    {
+        "name": "Bernard",
+        "age": 25,
+        "ethnicity": "Mijikenda",
+        "gender": "Male"
+    },
+    {
+        "name": "Joseph",
+        "age": 27,
+        "ethnicity": "Luhya",
+        "gender": "Male"
+    },
+    {
+        "name": "Sarah",
+        "age": 20,
+        "ethnicity": "Kalenjin",
+        "gender": "Female"
+    },
+    {
+        "name": "Sarah",
+        "age": 43,
+        "ethnicity": "Kalenjin",
+        "gender": "Female"
+    },
+    {
+        "name": "David",
+        "age": 33,
+        "ethnicity": "Kikuyu",
+        "gender": "Male"
+    },
+    {
+        "name": "James",
+        "age": 31,
+        "ethnicity": "Kisii",
+        "gender": "Male"
+    },
+    {
+        "name": "Peter",
+        "age": 29,
+        "ethnicity": "Mijikenda",
+        "gender": "Male"
+    },
+    {
+        "name": "Catherine",
+        "age": 37,
+        "ethnicity": "Mijikenda",
+        "gender": "Female"
+    },
+    {
+        "name": "Michael",
+        "age": 34,
+        "ethnicity": "Kisii",
+        "gender": "Male"
+    },
+    {
+        "name": "Sarah",
+        "age": 52,
+        "ethnicity": "Embu",
+        "gender": "Female"
+    },
+    {
+        "name": "Esther",
+        "age": 31,
+        "ethnicity": "Mijikenda",
+        "gender": "Female"
+    },
+    {
+        "name": "John",
+        "age": 55,
+        "ethnicity": "Luo",
+        "gender": "Male"
+    },
+    {
+        "name": "David",
+        "age": 44,
+        "ethnicity": "Kikuyu",
+        "gender": "Male"
+    },
+    {
+        "name": "Daniel",
+        "age": 20,
+        "ethnicity": "Kisii",
+        "gender": "Male"
+    },
+    {
+        "name": "Joseph",
+        "age": 28,
+        "ethnicity": "Kalenjin",
+        "gender": "Male"
+    },
+    {
+        "name": "Peter",
+        "age": 26,
+        "ethnicity": "Meru",
+        "gender": "Male"
+    }
+]
+
+
+    let table = document.querySelector("table")
+
+    for(let index= 0; index<people.length; index++){
+        let row = document.createElement("tr")
+        row.innerHTML = `
+            <td> ${people[index].name} </td>
+            <td> ${people[index].ethnicity} </td>
+            <td> ${people[index].age} </td>
+            <td> ${people[index].gender} </td>
+        `
+        table.append(row)
+    }
+
+    </script>
+</body>
+</html>
